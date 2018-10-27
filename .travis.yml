@@ -7,5 +7,7 @@ services:
 script:
   - ls /
   - ls /c
+  - ls "/c/Program Files"
+  - ls "/c/Program Files/Docker"
   - ls "/c/Program Files/Docker/Docker"
   - docker run -i --rm alpine ls
