@@ -5,7 +5,7 @@ services:
   - docker
 
 script:
-  - ls
-  - ls C:\
-  - ls "C:\Program Files\Docker\Docker"
+  - ls /
+  - ls /c
+  - ls "/c/Program Files/Docker/Docker"
   - docker run -i --rm alpine ls
