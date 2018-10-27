@@ -5,6 +5,7 @@ services:
   - docker
 
 script:
+  - set
   - ls /
   - ls /c
   - ls "/c/Program Files"
