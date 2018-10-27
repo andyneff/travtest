@@ -1,0 +1,9 @@
+os: windows
+
+services:
+  - docker
+
+script:
+  - docker version
+  - docker info
+  - docker run -it --rm alpine ls
